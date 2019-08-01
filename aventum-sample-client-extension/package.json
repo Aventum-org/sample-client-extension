@@ -1,0 +1,11 @@
+{
+  "name": "@aventum/sample-client-extension",
+  "version": "1.0.0",
+  "description": "Example of Aventum client extension.",
+  "main": "dist/aventum-sample-client-extension.js",
+  "author": "Mohammed Al-Mahdawi",
+  "license": "MIT",
+  "aventum": {
+    "target": "client"
+  }
+}
