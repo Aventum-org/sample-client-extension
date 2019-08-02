@@ -1,16 +1,25 @@
 {
   "name": "@aventum/sample-client-extension-source-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example of Aventum client extension.",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack"
   },
-  "author": "Mohammed Al-Mahdawi",
+  "author": {
+    "name": "Mohammed Al-Mahdawi",
+    "email": "mohammed@al-mahdawi.com",
+    "url": "https://al-mahdawi.com"
+  },
   "license": "MIT",
   "aventum": {
     "target": "client"
   },
+  "keywords": [
+    "aventum",
+    "aventum-extension",
+    "aventum-client-extension"
+  ],
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",

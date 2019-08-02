@@ -1,11 +1,24 @@
 {
   "name": "@aventum/sample-client-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example of Aventum client extension.",
-  "main": "dist/aventum-sample-client-extension.js",
-  "author": "Mohammed Al-Mahdawi",
+  "main": "aventum-sample-client-extension.js",
+  "author": {
+    "name": "Mohammed Al-Mahdawi",
+    "email": "mohammed@al-mahdawi.com",
+    "url": "https://al-mahdawi.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aventum-org/sample-client-extension"
+  },
   "license": "MIT",
   "aventum": {
     "target": "client"
-  }
+  },
+  "keywords": [
+    "aventum",
+    "aventum-extension",
+    "aventum-client-extension"
+  ]
 }
