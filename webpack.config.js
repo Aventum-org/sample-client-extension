@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const version = process.env.VERSION || require('./package.json').version
+const version = process.env.VERSION || require('./aventum-sample-client-extension/package.json').version
 
 const banner =
   'Aventum Sample Client Extension v' + version + '\n' +
@@ -12,7 +12,7 @@ module.exports = {
   mode: 'production',
   output: {
     path: path.resolve(__dirname, 'aventum-sample-client-extension'),
-    filename: 'aventum-sample-client-extension.js',
+    filename: 'index.js',
     library: 'AventumSampleClientExtension',
     libraryTarget: 'umd'
   },

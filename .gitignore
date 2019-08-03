@@ -35,4 +35,4 @@ node_modules
 
 package-lock.json
 
-aventum-sample-client-extension/aventum-sample-client-extension.js
+aventum-sample-client-extension/index.js
