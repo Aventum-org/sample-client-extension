@@ -1,6 +1,6 @@
 {
   "name": "@aventum/sample-client-extension-source-code",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Example of Aventum client extension.",
   "main": "src/index.js",
   "scripts": {
